@@ -81,7 +81,10 @@ As an option, the playbook may also generate the forecasts, or baseline for the 
 - Number of hosts used by a user.
 - Abnormal host for a user.
 - Number of users per IP.
-
+- Impossible travel (if we have Geo enhancement)
+- Multiple logon failure attempts
+- Session duration
+- Byte size Anomaly for exfiltration
 The following are less immidiate and may require additional modules:
 
 - Session length, by using count diff between start and end activity.
